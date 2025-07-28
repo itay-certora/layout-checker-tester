@@ -18,6 +18,5 @@ contract Test {
     mapping(address => bool) map;
     uint128[5] five;
     bool b0;
-    bool b1;
     bool[4][2] bools;
 }
