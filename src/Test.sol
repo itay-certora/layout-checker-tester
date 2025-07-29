@@ -17,6 +17,6 @@ contract Test {
     Struct str;
     mapping(address => bool) map;
     uint128[5] five;
-    bool b0;
+    bool b;
     bool[4][2] bools;
 }
