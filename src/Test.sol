@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.25;
-
-contract Test {
+import {Kaki} from "./Kaki.sol";
+contract Test is Kaki{
     enum E {
         ONE,
         TWO
